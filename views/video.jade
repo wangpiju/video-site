@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  video#videoPlayer(controls='')
+    source(src='http://localhost:3000/video/sample', type='video/mp4')
+  button#toggleButton Start/Stop
+  video#videoPlayer2(controls='')
+    source(src='http://localhost:3000/video/toystory', type='video/mp4')
+  button#toggleButton2 Start/Stop
